@@ -1,0 +1,128 @@
+header{display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    background-color: rgb(247, 242, 240);
+    max-width: 1300px;
+    margin: 0 auto;
+    border-bottom: solid 2px red;
+    }
+    
+    nav ul{display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            list-style: none;
+            margin-top: 35px;
+            
+           
+        }
+    
+    .t img{border: solid 2px rgb(102, 136, 152);
+    padding: 6px;
+    max-width: 100%;
+    }
+    
+    .line{border-top: solid 2px red;}
+    
+    .t2{background-color: rgb(233, 229, 228);
+    }
+    .t3{background-color: rgb(217, 217, 217);
+    margin-bottom: 0;}
+    .t4{
+        background-color:rgba(164, 183, 192, 0.66);
+    margin-top: 0;}
+    
+    .t5{background-color: rgb(164, 183, 192);}
+    
+    .t4 h2{margin-top: 0;
+        padding-top: 15px;
+    
+    }
+    
+    
+    .container2{
+        position: relative;}
+    
+    .btn2{position: absolute;
+         top: 85%;
+         left: 8%;
+         cursor: pointer;
+         background-color:rgba(247, 242, 240, 0.721);
+         font-family: playfair;
+         color: rgb(67, 96, 109);
+         font-weight: 700;
+         border: none;
+         padding-top: 7px;
+         padding-bottom: 7px;
+         padding-left: 15px;
+         padding-right: 15px;
+    }
+    
+    .container3{position: relative;}
+    
+    .btn3{position: absolute;
+        top: 85%;
+        left: 10%;
+        cursor: pointer;
+         background-color:rgba(247, 242, 240, 0.721);
+         font-family: playfair;
+         font-weight: 700;
+         border: none;
+         padding-top: 7px;
+         padding-bottom: 7px;
+         padding-left: 15px;
+         padding-right: 15px;
+    }
+    
+    .btn2 a, .btn3 a, .btn4 a{text-decoration: none;
+        color: rgb(56, 80, 91);}
+    
+    
+    .container4{position: relative;}
+    
+    .btn4{position: absolute;
+        top: 85%;
+        left: 10%;
+        cursor: pointer;
+         background-color:rgba(246, 236, 232, 0.626);
+         font-family: playfair;
+         color: rgb(67, 96, 109);
+         font-weight: 700;
+         border: none;
+         padding-top: 7px;
+         padding-bottom: 7px;
+         padding-left: 15px;
+         padding-right: 15px;
+    }
+    
+    .container5{position: relative;}
+    
+    .container5_2{position: relative;}
+    
+    footer{border-top: solid 2px red;}
+    
+    
+    
+    
+    @media (min-width: 800px){
+        body{margin: 0 auto;}
+        h2{text-align: center;}
+    
+       main{
+           max-width: 1100px;
+    }
+        
+    
+        /* nav ul{margin-top: 65px;} */
+        
+        
+        .grid_1-1-1{display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        gap: 14px;
+        
+    }
+    
+        .grid_1-1{display: grid;
+            grid-template-columns: 1fr 1fr;
+    
+        }
+            
+    }
