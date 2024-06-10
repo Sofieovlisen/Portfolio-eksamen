@@ -30,6 +30,7 @@ header{display: grid;
     
     .t5{background-color: rgb(164, 183, 192);
         margin-top: 0;
+        border-bottom: solid 1px red;
     }
     .t5 h2{margin-top: 0;
     padding-top: 20px;
@@ -116,64 +117,6 @@ header{display: grid;
         font-size: 14px;
     }
     
-    /* .container2{
-        position: relative;}
-    
-    .btn2{position: absolute;
-         top: 85%;
-         left: 8%;
-         cursor: pointer;
-         background-color:rgba(247, 242, 240, 0.721);
-         font-family: playfair;
-         color: rgb(67, 96, 109);
-         font-weight: 700;
-         border: none;
-         padding-top: 7px;
-         padding-bottom: 7px;
-         padding-left: 15px;
-         padding-right: 15px;
-    }
-    
-    .container3{position: relative;}
-    
-    .btn3{position: absolute;
-        top: 85%;
-        left: 10%;
-        cursor: pointer;
-         background-color:rgba(247, 242, 240, 0.721);
-         font-family: playfair;
-         font-weight: 700;
-         border: none;
-         padding-top: 7px;
-         padding-bottom: 7px;
-         padding-left: 15px;
-         padding-right: 15px;
-    }
-    
-    .btn2 a, .btn3 a, .btn4 a{text-decoration: none;
-        color: rgb(56, 80, 91);}
-    
-    
-    .container4{position: relative;}
-    
-    .btn4{position: absolute;
-        top: 85%;
-        left: 10%;
-        cursor: pointer;
-         background-color:rgba(246, 236, 232, 0.626);
-         font-family: playfair;
-         color: rgb(67, 96, 109);
-         font-weight: 700;
-         border: none;
-         padding-top: 7px;
-         padding-bottom: 7px;
-         padding-left: 15px;
-         padding-right: 15px;
-    }
-    
-    .container5{position: relative;}
-    
-    .container5_2{position: relative;} */
     
     footer{border-top: solid 2px red;}
     
