@@ -116,12 +116,45 @@ header{display: grid;
         padding-bottom: 50px;
         font-size: 14px;
     }
+
+   /*  -----CV----- */
+
+
+    .om{padding-top: 15px;}
+
+   .kontakt{border-top: solid 2px black;
+    border-bottom: solid 2px black;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+   
+   .kontakt p{max-width: 100%;
+    text-align: center;
+}
+
+   .cv{background-color: rgba(164, 183, 192, 0.66) ;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        
+}
+   
+.sprog, .programmer{border-right: solid 1px red;}
+   
+
+    dl{margin-left: 25px;
+        margin-bottom: 50px;
+    
+    }
     
     
     footer{border-top: solid 2px red;}
     
     
-    
+    .grid_1-1-1mobile{display: grid;
+        grid-template-columns: 1.5fr 1fr 1.5fr;
+       
+    }
+
     
     @media (min-width: 800px){
         body{margin: 0 auto;}
@@ -130,10 +163,16 @@ header{display: grid;
        main{
            max-width: 1100px;
     }
+
+    .sprog, .programmer{border-right: solid 2px red;}
+
+    .cv1{border-right: solid 2px red;
+        margin-right: 20px;
+
+}
         
-    
         
-        
+   /* -----Grids----- */
         
         .grid_1-1-1{display: grid;
             grid-template-columns: 1fr 1fr 1fr;
