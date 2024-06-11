@@ -134,7 +134,8 @@ header{display: grid;
     dd{padding-bottom: 10px;
     padding-top: 5px;}
     
-    footer{border-top: solid 2px red;}
+    footer{border-top: solid 2px red;
+    }
     
     
     .grid_1-1-1mobile{display: grid;
