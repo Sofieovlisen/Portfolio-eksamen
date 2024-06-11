@@ -116,7 +116,7 @@ header{display: grid;
     text-align: center;
 }
 
-   .cv{background-color: rgba(164, 183, 192, 0.66) ;
+   .cv{background-color: rgb(233, 229, 228) ;
         padding-top: 40px;
         padding-bottom: 40px;
         
@@ -129,7 +129,8 @@ header{display: grid;
         margin-bottom: 50px;
     
     }
-    
+    dd{padding-bottom: 10px;
+    padding-top: 5px;}
     
     footer{border-top: solid 2px red;}
     
@@ -171,12 +172,18 @@ header{display: grid;
 
         .grid_1-1l{display: grid;
             grid-template-columns: 400px 1fr;
+            height: 400px;
+    
+        }
+        .grid_1-1l5{display: grid;
+            grid-template-columns: 400px 1fr;
+            height: 805.5px;
     
         }
 
         .grid_1-1r{display: grid;
             grid-template-columns: 1fr 400px;
-    
+            height: 400px;
         }
             
     }
