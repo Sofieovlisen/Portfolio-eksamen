@@ -71,6 +71,7 @@ header{display: grid;
         font-weight: 600;
         font-size: 16px;
         
+        
     }
     .btn_t5a{margin-left: 18%;
         margin-bottom: 20px;
@@ -83,6 +84,7 @@ header{display: grid;
         color: rgb(102, 136, 152);
         font-weight: 600;
         font-size: 16px;
+        
 
     }
     .btn_t3{margin-left: 28%;
@@ -153,8 +155,31 @@ header{display: grid;
 
     .cv1{border-right: solid 2px rgba(255, 0, 0, 0.561);
         margin-right: 20px;
-
 }
+
+    .p{margin-left: 25% ;}
+
+    
+    .btn a{margin-left: 37%;
+        
+        
+    }
+
+    .btn_t5{margin-left: 40%;
+        
+        
+        
+    }
+    .btn_t5a{margin-left: 39%;
+        margin-top: 20px;
+        
+
+    }
+    .btn_t3{margin-left: 43%;
+        
+
+    }
+
         
         
    /* -----Grids----- */
