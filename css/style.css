@@ -43,21 +43,16 @@ header{display: grid;
 
 /* ------Knapper på portfolie-side------ */
 
-    .btn{margin-left: 37%;
+    .btn a{margin-left: 37%;
         margin-bottom: 20px;
         font-family: playfair;
         border: solid 1px rgba(0, 0, 0, 0.581);
         border-radius: 4px;
-        height: 40px;
-        background-color: rgb(247, 242, 240);}
-
-    .btn a{text-decoration: none;
+        background-color: rgb(247, 242, 240);
+        text-decoration: none;
+        padding: 10px 20px;
         color: rgb(102, 136, 152);
         font-weight: 600;
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-top: 35px;
-        padding-bottom: 50px;
         font-size: 16px;
     }
 
