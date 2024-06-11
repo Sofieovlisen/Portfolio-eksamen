@@ -61,6 +61,7 @@ h1{text-align: center;
     margin-top: 0px;
     padding-top: 10px;
     margin-bottom: 20px;
+    border-bottom: solid 2px red;
 }
 
 h2{
